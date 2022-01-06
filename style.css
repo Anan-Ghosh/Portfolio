@@ -1,0 +1,43 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: #eef2ff;
+  margin: 0px;
+  /* padding: 5px 5px; */
+}
+section {
+  display: flex;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 50px;
+}
+.name-class {
+  color: #0f2c67;
+  /* font-size: 70px; */
+}
+.half-width {
+  font-weight: 900;
+  color: Black;
+  width: 60%;
+  padding-left: 2px;
+}
+.half-width img {
+  margin-left: 15%;
+  width: 80%;
+}
+.hire_me {
+  text-decoration: none;
+  background-image: linear-gradient(#112031, #6d8299);
+  padding: 10px 30px;
+  color: whitesmoke;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.top-banner {
+  padding: 5%;
+  background-image: url(image/483-4832695_rainbow-ribbon-rainbow-swoosh-transparent-hd-png-download-removebg-preview.png);
+  background-repeat: no-repeat;
+}
