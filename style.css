@@ -1,4 +1,4 @@
-.upper{
+.upper {
     display: flex;
     margin: 1% 2%;
     padding: 3% 0%;
@@ -6,14 +6,14 @@
     padding-right: 6%;
 }
 
-.profile_image{
+.profile_image {
     margin: 5% 2%;
     padding: 3% 0%;
     padding-left: 15%;
 }
 
 
-.pc{
+.pc {
     margin: 2%;
     width: 290px;
     height: 300px;
@@ -23,12 +23,12 @@
     box-shadow: 0 0 0 2px #fff;
 }
 
-.about{
+.about {
     margin: 1% 1%;
     padding-left: 3%;
 }
 
-.about h1{
+.about h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
     /* font-weight: 600; */
@@ -40,7 +40,8 @@
     transition-timing-function: ease;
     transition-delay: 1ms;
 }
-.nsu:hover{
+
+.nsu:hover {
     font-size: 25px;
     font-weight: 300;
     transition: 2s;
@@ -49,7 +50,7 @@
     transition-delay: 1ms;
 }
 
-.about p{
+.about p {
     text-align: justify;
     padding-right: 30%;
     padding-top: 3%;
@@ -71,13 +72,13 @@
 .education {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    text-align:justify;
+    text-align: justify;
     color: #fff;
     margin-top: 1%;
     padding-left: 18%;
 }
 
-.education h2{
+.education h2 {
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #FEFBE7;
@@ -85,7 +86,7 @@
     padding-bottom: 40px;
 }
 
-.education p{
+.education p {
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
@@ -94,10 +95,10 @@
 }
 
 
-.research{
+.research {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
-    text-align:justify;
+    text-align: justify;
     color: #fff;
     margin-top: 1%;
     padding-left: 18%;
@@ -118,7 +119,7 @@
     padding-left: 3%;
 }
 
-.project{
+.project {
     text-align: justify;
     font-size: 18px;
     text-align: justify;
@@ -126,15 +127,15 @@
     padding-right: 23%;
 }
 
-.lower{
-    display:block;
+.lower {
+    display: block;
     margin: 1% 2%;
     padding: 1% 0%;
     padding-left: 6%;
     padding-right: 6%;
 }
 
-.experience{
+.experience {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     text-align: justify;
@@ -152,22 +153,22 @@
     padding-bottom: 40px;
 }
 
-.acm{
+.acm {
     display: flex;
     text-align: justify;
     padding-left: -5%;
 }
 
-#position{
+#position {
     margin-top: 5px;
     padding-top: 1%;
     padding-left: 10%;
     text-align: justify;
     font-size: medium;
-
+    color: #FEF9A7;
 }
 
-.lorem{
+.lorem {
     display: flexbox;
     text-align: justify;
     padding-left: 55%;
@@ -178,12 +179,22 @@
     text-align: justify;
 }
 
-.project2{
+.lorem2 {
+    display: flexbox;
+    text-align: justify;
+    padding-left: 40%;
+
+    margin-top: -3%;
+    padding-top: -3%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.project2 {
     text-align: justify;
     font-size: 20px;
     font-weight: 100;
     padding-left: 5%;
     padding-right: 23%;
 }
-
-
