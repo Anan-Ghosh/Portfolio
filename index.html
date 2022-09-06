@@ -1,32 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Rubik:ital,wght@0,300;1,300;1,400&display=swap"
-        rel="stylesheet">
-    
-</head>
-<body>
-    <section class="top-banner">
-        <div class="half-width">
-            <h1>Welcome To</h1>
-            <h2><span class="name-class">Anan Ghosh</span> World!</h2>
-            <p>I am an undergraduate in Computer Engineering at North South University. I'm a passionate software developer, with a
-            strong Eagerness for machine learning and pattern recognition, and enjoy analytical work. I am working currently in
-            Machine learning and Neural networks. I am interested in devising better problem-solving methods to compensate for
-            challenges and learn new technologies and tools as needed.</p>
-            <a class="hire_me" href="https://www.linkedin.com/in/anan-ghosh/" target=blank>Hire Me</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anan Ghosh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="icon\portfolio-icon-computer-8dErDW6-600_-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body style="background-color: #141e27">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <b>Anan Ghosh</b> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <b>Anan Ghosh</b>
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Anan Ghosh.pdf" download>Resume</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Reach Me
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.linkedin.com/in/anan-ghosh/"
+                      target="_blank"
+                      ><i class="fa fa-linkedin" style="color: #0a66c2"></i>
+                      <span> <b>linkedin</b> </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.facebook.com/anan.ghosh.79"
+                      target="_blank"
+                      ><i
+                        class="fa fa-facebook-f"
+                        style="color: #4267b2; transition: 0.5s"
+                      ></i>
+                      <b><span>facebook</span></b>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://github.com/Anan-Ghosh"
+                      target="_blank"
+                      ><i class="fa fa-github"></i>
+                      <span> <b>Github</b> </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="half-width">
-            <img src="image/multi-colors-in-circle-udt (2).png" alt="My Profile Picture">
+      </div>
+    </nav>
+
+    <section class="upper-part">
+      <div class="upper">
+        <div class="profile_image">
+          <img
+            class="pc"
+            src="profile_image\241762598_2169442506532204_9055279266794511665_n.jpg"
+            alt="Image_of_Anan Ghosh"
+          />
         </div>
-    </section>    
-    
-</body>
+
+        <div class="about">
+          <h1><strong>Anan Ghosh</strong></h1>
+          <p>
+            Currently, I am a Computer Engineering graduate student at
+            <a
+              class="nsu"
+              href="http://www.northsouth.edu/"
+              target="_blank"
+              style="color: #0485f5; text-decoration: none"
+              >North South University</a
+            >, Bangladesh. I’m an enthusiastic software engineer that enjoys
+            doing analytical work and has a keen interest in
+            <em
+              >Machine learning , Computer Vision and Natural Language
+              Processing </em
+            >. I’m now working in the fields of
+            <em
+              ><b
+                >Computer Vision, Natural Language Processing and
+                Biomedical-based research</b
+              ></em
+            >. To compensate for complexities and analytical work, I’m
+            interested in devising better problem-solving approaches and trying
+            out new technologies and tools as needed.
+          </p>
+          <p>I participated in a lot of extracurricular activities in addition to my academic work. Throughout my academic years, I had the privilege of working for the <a href="https://nsusc.acm.org/home.html" target="_blank">NSU ACM</a> as a <em>Sub Executive</em> in the Team Provision and the NSU Cultural Team <em>Coordinator.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="middle-part">
+      <div class="middle">
+        <div class="education">
+          <h2>Education</h2>
+          <p>Bachelor of Science in Computer Science and Engineering</p>
+          <p>North South University, Bangladesh</p>
+          <p id="time">January 2018 - April 2022</p>
+        </div>
+
+        <div class="research">
+          <h2>Research</h2>
+
+          <h5>
+            Emotional Reactions and Family Resilience During COVID-19 Lockdown
+            Period among Bangladeshi Families
+          </h5>
+          <p class="project">
+            This is a research project that focuses on the emotional emotions
+            and family resilience of Bangladeshi families during the COVID-19
+            lockdown period. The purpose of the study is to learn more about how
+            the structure of the family affects the emotional states of families
+            during lockdown.
+          </p>
+
+          <h5>Image synthesis with Normalizing Flows [On Going]</h5>
+          <p class="project">
+            We applied Normalizing flows to help produce additional synthetic
+            X-Ray image samples of chest X-Rays that tested positive for
+            COVID-19 for this study. We present our technique to creating
+            synthetic pictures using normalizing flows, as well as the theory
+            underlying normalizing flows and the overall outcomes, in this
+            study.
+          </p>
+
+          <h5>
+            Heartisan: ECG Data Monitoring and Arrhythmia Prediction
+            through Continuous Learning from Patient Data [On Going]
+          </h5>
+          <p class="project">
+            An individual can keep track of their cardiac arrhythmia situations
+            and ECG graphs. Data and predicted beats can be forwarded for
+            validation. Each predicted beat may be verified by doctors.
+            Depending on a set of criteria, the model is trained after a
+            specified amount of time.
+          </p>
+
+          <h5>Training Pruned Language Model [On Going]</h5>
+          <p class="project">
+            A more greener, resource-saving, and substantially smaller model may
+            be accomplished as well as a bigger model by lowering storage needs
+            and enhancing inference computing efficiency without losing
+            comparative performance in distinct down-streaming tasks. This model
+            can also be used as a few-shot learner, with the network’s sparsity
+            rate trimmed up to 90%.Using the Lottery Ticket Hypothesis, this few
+            shot learning model may be reduced without compromising performance
+            on Bangla NLP tasks.
+          </p>
+
+          <h5>Bangla Music Genre Classification Using NLP [On Going]</h5>
+          <p class="project">
+            Due to the Bangla music industry's explosive growth, a vast number
+            of Bangla songs are produced almost every day. Songs from various
+            genres are produced on by a significant number of producers,
+            lyricists, vocalists, and performers. Classical, folk, baul,
+            Rabindra Sangeet, Nazrul Geeti, cinema music, rock music, and fusion
+            music are among the genres of Bangla music that have seen the most
+            success. Differentiating across musical genres is crucial for
+            musical classification and knowledge representation. Although Bangla
+            music looks to be extremely diverse on its own, there hasn't been
+            any significant study utilizing NLP to classify the different
+            musical genres that may be found in Bangla music.
+          </p>
+        </div>
+
+        <div class="research">
+          <h2>Projects</h2>
+
+          <h5>Janao</h5>
+          <p class="project">
+            In a densely populated country like Bangladesh, local law
+            enforcement institutions struggle to provide protection to the
+            majority of the population. A user may easily report crimes to a
+            secure database using the Flutter-based app, and the local law
+            enforcement agency can then take necessary action based on the
+            information.
+          </p>
+
+          <h5>Document Management System</h5>
+          <p class="project">
+            The goal of this project is to digitize existing Department of
+            Finance records and data. The converted digital format will be
+            stored at a storage location determined by the Department of
+            Finance, where it will be attached using a simple document system
+            capable of search and retrieval
+          </p>
+
+          <h5>Airline Management</h5>
+          <p class="project">
+            We will create a database for a random commercial airline, complete
+            with staff, positions, and personal data/information, as part of
+            this project. Varied plane types, itineraries, and different routes
+            are appropriate for different classes. We can easily run an airline
+            company if we have authority over this sort of data.
+          </p>
+
+          <h5>Safe Education</h5>
+          <p class="project">
+            In this project, we are attempting to create programs that will
+            secure the question paper. The question paper will be encrypted once
+            it is uploaded into the program. Only those with authorization can
+            use a password to gain access to this program. The question paper
+            will then be decrypted and returned to its original form.
+          </p>
+        </div>
+        <div class="experience">
+          <h2>Skills</h2>
+          <ul class="project2">
+            <li>Programming Languages: Python, C, C++, Java</li>
+            <li>Front-end : HTML, CSS3, Bootstrap </li>
+            <li>Database: MySQL, Firebase</li>
+            <li>Back-end: Django</li>
+            <li>Frameworks & Libraries: Keras, Tensorflow, PyTorch, Pandas, Matplotlib, OpenCV, Scikit learn</li>
+            <li>Tools: Git, GitHub, Slack, Trello, LaTeX</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="lower-part">
+      <div class="lower">
+        <div class="experience">
+          <h2>Volunteer experience</h2>
+          <li class="project2">NSU ACM Student Chapter</li>
+          <div calss="acm">
+            <p id="position">SUB EXECUTIVE</p>
+          </div>
+          <div class="lorem">
+            <p>Dhaka, Bangladesh</p>
+            <span>November 2020 - February 2022</span>
+          </div>
+          <div calss="acm">
+          <p id="position">IN-CHARGE</p>
+        </div>
+        <div class="lorem">
+          <p>Dhaka, Bangladesh</p>
+          <span>January 2020 - January 2021</span>
+        </div>
+      </div>
+      <div class="experience">
+          <h2>Interests</h2>
+          <p class="project2">As well as conducting research and studying, I love to the guitar and exploring new environments in order to learn more about their cultures and heritages.
+
+          Always exert a determined and passionate endeavor to keep up with technological advancement, experienced in a diverse range of social activities and consistently attempts to blend in with the team. Make a conscious effort to collaborate effectively with others as well as to constantly attempt to be helpful.</p>
+        
+        <h2>Research Interests Area</h2>
+        <div class="project2">
+          <li>Natural Language Processing, Computer Vision</li>
+          <li>Artificial Intelligence, Machine Learning, Deep Learing</li>
+          <li>Biomedical Engineering</li>
+        </div>
+      </div>
+      <div class="experience">
+        <h2> <a id="Contact"></a> Contact</h2>
+        <div class="project2">
+          <li> Phone: +880 1521227058</li>
+          <li>Email: <a href="mailto:anan.ghosh@northsouth.edu">anan.ghosh@northsouth.edu</a></li>
+          <li>Personal Email: <a href="mailto:ananghosh15@gmail.com">ananghosh15@gmail.com</a> </li>
+      </div>
+    </section>
+
+  </body>
 </html>

@@ -1,43 +1,189 @@
-body {
-  font-family: "PT Sans", sans-serif;
-  font-family: "Rubik", sans-serif;
-  background-color: #eef2ff;
-  margin: 0px;
-  /* padding: 5px 5px; */
+.upper{
+    display: flex;
+    margin: 1% 2%;
+    padding: 3% 0%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
-section {
-  display: flex;
+
+.profile_image{
+    margin: 5% 2%;
+    padding: 3% 0%;
+    padding-left: 15%;
 }
-h1 {
-  font-size: 40px;
+
+
+.pc{
+    margin: 2%;
+    width: 290px;
+    height: 300px;
+    padding: 10px;
+    border-image-slice: fill;
+    border-radius: 150%;
+    box-shadow: 0 0 0 2px #fff;
 }
-h2 {
-  font-size: 50px;
+
+.about{
+    margin: 1% 1%;
+    padding-left: 3%;
 }
-.name-class {
-  color: #0f2c67;
-  /* font-size: 70px; */
+
+.about h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    /* font-weight: 600; */
+    color: #fff;
+    margin: 5% 0% 0% 0%;
+    padding-top: 7%;
+    transition: 3s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 1ms;
 }
-.half-width {
-  font-weight: 900;
-  color: Black;
-  width: 60%;
-  padding-left: 2px;
+.nsu:hover{
+    font-size: 25px;
+    font-weight: 300;
+    transition: 2s;
+    transition-property: none;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1ms;
 }
-.half-width img {
-  margin-left: 15%;
-  width: 80%;
+
+.about p{
+    text-align: justify;
+    padding-right: 30%;
+    padding-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #fff;
 }
-.hire_me {
-  text-decoration: none;
-  background-image: linear-gradient(#112031, #6d8299);
-  padding: 10px 30px;
-  color: whitesmoke;
-  font-weight: 600;
-  border-radius: 5px;
+
+
+.middle {
+    display: flexbox;
+    margin: -3% 2%;
+    padding: 1% 0%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
-.top-banner {
-  padding: 5%;
-  background-image: url(image/483-4832695_rainbow-ribbon-rainbow-swoosh-transparent-hd-png-download-removebg-preview.png);
-  background-repeat: no-repeat;
+
+
+.education {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:justify;
+    color: #fff;
+    margin-top: 1%;
+    padding-left: 18%;
 }
+
+.education h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FEFBE7;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+}
+
+.education p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: justify;
+    padding-left: 3%;
+}
+
+
+.research{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align:justify;
+    color: #fff;
+    margin-top: 1%;
+    padding-left: 18%;
+}
+
+.research h2 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FEFBE7;
+    margin-bottom: 5px;
+    padding-top: 2%;
+    padding-bottom: 40px;
+}
+
+.research h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FEF9A7;
+    padding-left: 3%;
+}
+
+.project{
+    text-align: justify;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 23%;
+}
+
+.lower{
+    display:block;
+    margin: 1% 2%;
+    padding: 1% 0%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.experience{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: justify;
+    color: #fff;
+    margin-top: 1%;
+    padding-left: 18%;
+}
+
+.experience h2 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FEFBE7;
+    padding-top: 2%;
+    padding-bottom: 40px;
+}
+
+.acm{
+    display: flex;
+    text-align: justify;
+    padding-left: -5%;
+}
+
+#position{
+    margin-top: 5px;
+    padding-top: 1%;
+    padding-left: 10%;
+    text-align: justify;
+    font-size: medium;
+
+}
+
+.lorem{
+    display: flexbox;
+    text-align: justify;
+    padding-left: 55%;
+    padding-right: 22%;
+    margin-top: -3%;
+    padding-top: -3%;
+    font-size: medium;
+    text-align: justify;
+}
+
+.project2{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 5%;
+    padding-right: 23%;
+}
+
+
